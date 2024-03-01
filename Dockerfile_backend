@@ -16,6 +16,6 @@ COPY quirknotes/backend ./
 # Expose port 3000 to serve the backend
 EXPOSE 4000
 
-RUN docker-compose up
+
 
 CMD ["npm", "start"]
